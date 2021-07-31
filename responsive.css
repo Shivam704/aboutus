@@ -1,0 +1,45 @@
+@media only screen and (max-width: 700px) {
+  .container {
+    border-top: 250px solid transparent;
+    border-right: 370px solid transparent;
+    border-bottom: 250px solid transparent;
+    border-left: 550px solid #005a8c;
+  }
+
+  .img-container {
+    top: -240px;
+    right: 600px;
+  }
+
+  .row1 img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .row2 img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .content {
+    width: 69vw;
+    left: 50px;
+    bottom: -111px;
+  }
+
+  .content p{
+      font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  .content {
+    width: 52vw;
+    left: 50px;
+    bottom: -150px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+}
